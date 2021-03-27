@@ -3,7 +3,7 @@
   "previousArtifactVersion" : "1.10.44",
   "id" : "creerPropreSujet",
   "name" : "creerPropreSujet",
-  "lastUpdate" : 1616763124477,
+  "lastUpdate" : 1616857125007,
   "rows" : [
     [
       {
@@ -320,7 +320,25 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "sujetChoisis.titre"
+                          "value" : "titreSujetPerso"
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "cd77f9b9-d5d1-4f79-a198-966c5618f403",
@@ -392,126 +410,30 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "sujetChoisis.description"
+                          "value" : "descriptionSujetPerso"
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "1fead2ff-a5e0-4128-825c-5017efb42445",
                       "hasValidationError" : false,
                       "id" : "pbInput"
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "xs" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "widgetId" : {
-                          "type" : "constant",
-                          "value" : "pbCheckbox"
-                        },
-                        "disabled" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Est Valide"
-                        },
-                        "alignment" : {
-                          "type" : "constant",
-                          "value" : "left"
-                        },
-                        "class" : {
-                          "type" : "constant",
-                          "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.CheckboxWidget"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "false"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        }
-                      },
-                      "reference" : "063439a5-e0d3-4639-a4c3-9ec8f3e50ac9",
-                      "hasValidationError" : false,
-                      "id" : "pbCheckbox"
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "xs" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "widgetId" : {
-                          "type" : "constant",
-                          "value" : "pbCheckbox"
-                        },
-                        "disabled" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "A Un Encadrant"
-                        },
-                        "alignment" : {
-                          "type" : "constant",
-                          "value" : "left"
-                        },
-                        "class" : {
-                          "type" : "constant",
-                          "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.CheckboxWidget"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "false"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        }
-                      },
-                      "reference" : "be00a081-14cf-4a1f-bb82-c07649234cd7",
-                      "hasValidationError" : false,
-                      "id" : "pbCheckbox"
                     }
                   ]
                 ]
@@ -595,6 +517,29 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "assign" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "url" : {
+                    "type" : "interpolation"
+                  },
+                  "responseStatusCode" : {
+                    "type" : "variable",
+                    "value" : ""
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable",
+                    "value" : ""
+                  },
+                  "closeOnSuccess" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "modalId" : {
+                    "type" : "constant",
+                    "value" : ""
                   }
                 },
                 "reference" : "f077111a-6d76-4371-ace1-f072d48b21b1",
@@ -707,9 +652,9 @@
         "\treturn {",
         "\t\t//map sujetChoisis variable to expected task contract input",
         "\t\tsujetChoisisInput: {",
-        "\t\t\ttitre: $data.sujetChoisis.titre !== undefined ? $data.sujetChoisis.titre : null,",
-        "\t\t\tdescription: $data.sujetChoisis.description !== undefined ? $data.sujetChoisis.description : null,",
-        "\t\t\testValide: $data.sujetChoisis.estValide !== undefined ? $data.sujetChoisis.estValide : null",
+        "\t\t\ttitre: $data.sujetChoisis.titre !== undefined ? $data.titreSujetPerso : null,",
+        "\t\t\tdescription: $data.sujetChoisis.description !== undefined ? $data.descriptionSujetPerso : null,",
+        "\t\t\testValide: $data.sujetChoisis.estValide !== undefined ? false : null",
         "\t\t}",
         "\t}",
         "}"
@@ -735,6 +680,14 @@
       "value" : [
         "id"
       ],
+      "exposed" : false
+    },
+    "titreSujetPerso" : {
+      "type" : "constant",
+      "exposed" : false
+    },
+    "descriptionSujetPerso" : {
+      "type" : "constant",
       "exposed" : false
     }
   },
