@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="Université">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="michel">
+      <firstName>Michel</firstName>
+      <lastName>X</lastName>
+      <title>Mr</title>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="jm">
+      <firstName>Jean-Marie</firstName>
+      <lastName>X</lastName>
+      <title>Mr</title>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="thomas">
+      <firstName>Thomas</firstName>
+      <lastName>X</lastName>
+      <title>Mr</title>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="vanessa">
+      <firstName>Vanessa</firstName>
+      <lastName>X</lastName>
+      <title>Mrs</title>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Responsable de stage">
+      <displayName>Responsable de stage</displayName>
+    </role>
+    <role name="Etudiant">
+      <displayName>Etudiant</displayName>
+    </role>
+    <role name="Encadrant de stage">
+      <displayName>Encadrant de stage</displayName>
+    </role>
+    <role name="Secretaire">
+      <displayName>Secretaire</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Personnes">
+      <displayName>Personnes</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>michel</userName>
+      <roleName>Responsable de stage</roleName>
+      <groupName>Personnes</groupName>
+    </membership>
+    <membership>
+      <userName>jm</userName>
+      <roleName>Etudiant</roleName>
+      <groupName>Personnes</groupName>
+    </membership>
+    <membership>
+      <userName>thomas</userName>
+      <roleName>Encadrant de stage</roleName>
+      <groupName>Personnes</groupName>
+    </membership>
+    <membership>
+      <userName>vanessa</userName>
+      <roleName>Secretaire</roleName>
+      <groupName>Personnes</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
