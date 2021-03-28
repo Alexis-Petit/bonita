@@ -2,9 +2,9 @@
 <organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="Université">
   <customUserInfoDefinitions/>
   <users>
-    <user userName="michel">
-      <firstName>Michel</firstName>
-      <lastName>X</lastName>
+    <user userName="michelle">
+      <firstName>Michelle</firstName>
+      <lastName>Mon-Saint</lastName>
       <title>Mr</title>
       <manager></manager>
       <personalData/>
@@ -12,9 +12,9 @@
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
-    <user userName="jm">
-      <firstName>Jean-Marie</firstName>
-      <lastName>X</lastName>
+    <user userName="jp">
+      <firstName>Jean-Paul</firstName>
+      <lastName>Pottier</lastName>
       <title>Mr</title>
       <manager></manager>
       <personalData/>
@@ -22,9 +22,9 @@
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
-    <user userName="thomas">
-      <firstName>Thomas</firstName>
-      <lastName>X</lastName>
+    <user userName="Paul">
+      <firstName>Paul</firstName>
+      <lastName>pol</lastName>
       <title>Mr</title>
       <manager></manager>
       <personalData/>
@@ -32,8 +32,8 @@
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
-    <user userName="vanessa">
-      <firstName>Vanessa</firstName>
+    <user userName="sabrina">
+      <firstName>sabrina</firstName>
       <lastName>X</lastName>
       <title>Mrs</title>
       <manager></manager>
@@ -64,22 +64,22 @@
   </groups>
   <memberships>
     <membership>
-      <userName>michel</userName>
+      <userName>michelle</userName>
       <roleName>Responsable de stage</roleName>
       <groupName>Personnes</groupName>
     </membership>
     <membership>
-      <userName>jm</userName>
+      <userName>jp</userName>
       <roleName>Etudiant</roleName>
       <groupName>Personnes</groupName>
     </membership>
     <membership>
-      <userName>thomas</userName>
+      <userName>Paul</userName>
       <roleName>Encadrant de stage</roleName>
       <groupName>Personnes</groupName>
     </membership>
     <membership>
-      <userName>vanessa</userName>
+      <userName>sabrina</userName>
       <roleName>Secretaire</roleName>
       <groupName>Personnes</groupName>
     </membership>

@@ -3,7 +3,7 @@
   "previousArtifactVersion" : "1.10.44",
   "id" : "publierLesSujets",
   "name" : "publierLesSujets",
-  "lastUpdate" : 1616763124673,
+  "lastUpdate" : 1616925185203,
   "rows" : [
     [
       {
@@ -713,7 +713,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "Submit"
+                    "value" : "Valider"
                   },
                   "dataToSend" : {
                     "type" : "expression",
@@ -759,6 +759,29 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "assign" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "url" : {
+                    "type" : "interpolation"
+                  },
+                  "responseStatusCode" : {
+                    "type" : "variable",
+                    "value" : ""
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable",
+                    "value" : ""
+                  },
+                  "closeOnSuccess" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "modalId" : {
+                    "type" : "constant",
+                    "value" : ""
                   }
                 },
                 "reference" : "b62db242-d832-47e0-b77f-5f130cb83b9e",
